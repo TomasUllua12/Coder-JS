@@ -1,6 +1,6 @@
 let montoTotal;
 let cantidadCuotas;
-const interes = 5;
+const interes = 3;
 
 // Funcion 1: solicitarMonto() | Solicito el monto del producto
 function solicitarMonto() {
@@ -35,7 +35,7 @@ function calcularCuotas(monto, cuotas, interes) {
         
         Monto original: $${monto.toFixed(2) /*uso toFixed() para especificar cantidad de decimales*/}
         Cantidad de cuotas: ${cuotas}
-        Tasa de interes anual: ${interes}%
+        Interes: ${interes}%
         Valor de cada cuota: $${valorCuota.toFixed(2)}`
     );
 
